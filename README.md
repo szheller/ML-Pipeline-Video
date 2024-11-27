@@ -12,7 +12,7 @@ csv file, there is training of the AI Model using the target data
 and predictions of the target data as well.  These predictions are
 then used to reduce the video file to include only those frames where
 the active status has been predicted, with additional features such
-as smoothing incorporated.
+as transitions incorporated.
 
 Included in the predictions are sudden change in direction of the ball.
 
@@ -41,4 +41,12 @@ Final Project:
 The resulting output video is found at:
 
   Output Video file:  https://youtu.be/kCjb1ltOSBI
-  
+
+ ---
+ To run this Project, follow these steps:
+
+ 1. python data_analysis2.py	Generates sudden_change.csv from provided_data.csv
+ 2. python time_classification.py Generates predictions.csv from sudden_change.csv
+ 3. python video_transition.py	generates output video in transition.mp4
+
+
