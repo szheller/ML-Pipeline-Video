@@ -14,5 +14,7 @@ then used to reduce the video file to include only those frames where
 the active status has been predicted, with additional features such
 as smoothing incorporated.
 
+Included in the predictions are sudden change in direction of the ball.
+
 The resulting output video is found at:
 
