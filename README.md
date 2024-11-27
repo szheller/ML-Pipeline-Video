@@ -32,10 +32,7 @@ Final Project:
 		Create predictions of the test data & write to predictions.csv
 		
 		Read in predictions.csv
-
-  Output Video file:  https://youtu.be/kCjb1ltOSBI
   
-
 		Apply filters and transitions to frames in predictions.csv
 		& write out to output video.
 
@@ -43,3 +40,5 @@ Final Project:
 
 The resulting output video is found at:
 
+  Output Video file:  https://youtu.be/kCjb1ltOSBI
+  
