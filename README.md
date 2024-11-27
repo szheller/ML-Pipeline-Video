@@ -33,6 +33,9 @@ Final Project:
 		
 		Read in predictions.csv
 
+  Output Video file:  https://youtu.be/kCjb1ltOSBI
+  
+
 		Apply filters and transitions to frames in predictions.csv
 		& write out to output video.
 
