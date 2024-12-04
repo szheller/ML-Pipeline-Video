@@ -162,6 +162,8 @@ steps above, open a terminal (Anaconda Prompt on Windows), then run below:
 The resulting output video is found at:
 
   Output Video file:  <Coming Soon - 10 hours so far, 18 hours total to finish generating>
+  https://youtu.be/z_mgdO38tpM
+  
 
  ---
 
