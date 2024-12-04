@@ -137,10 +137,14 @@ To run this Project, follow these steps:
 After Anaconda has been installed & activated following the Installation
 steps above, open a terminal (Anaconda Prompt on Windows), then run below:
 
-- python data_analysis2.py Generates sudden_change.csv from provided_data.csv
-- python time_classification.py Generates predictions.csv from sudden_change.csv & target.csv
-- python filter_predictions.py Generates smoothed_predictions.csv from predictions.csv, also creates predictions_comparison.png showing smoothing added.
-- python video_transition.py generates output video in transition.mp4 from smoothed_predictions.csv & video.mp4
+- Generate sudden_change.csv from provided_data.csv
+		python data_analysis2.py 
+- Generate predictions.csv from sudden_change.csv & target.csv
+		python time_classification.py 
+- Generate smoothed_predictions.csv from predictions.csv, also creates predictions_comparison.png showing smoothing added.
+  		python filter_predictions.py 
+- Generate output video in transition.mp4 from smoothed_predictions.csv & video.mp4
+  		python video_transition.py 
 
 
 The resulting output video is found at:
