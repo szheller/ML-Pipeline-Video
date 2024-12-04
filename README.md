@@ -22,7 +22,8 @@ Final Project:
 
 		Detect sudden change in direction, write out to sudden_change.csv
 
-		Read in provided_data.csv, also read in sudden_change.csv & merge
+		Read in provided_data.csv & target.csv, merge on frame, also read in
+  		sudden_change.csv & merge on frame into the DataFrame
 
 		Create lagged features for time series data
 
@@ -137,19 +138,23 @@ To run this Project, follow these steps:
 After Anaconda has been installed & activated following the Installation
 steps above, open a terminal (Anaconda Prompt on Windows), then run below:
 
-1. Generate sudden_change.csv from provided_data.csv
+0. Activate the Anaconda environment:
+
+		conda activate mleng_env 
+
+1. Generate sudden_change.csv from provided_data.csv:
 
 		python data_analysis2.py 
 
-2. Generate predictions.csv from sudden_change.csv & target.csv
+2. Generate predictions.csv from sudden_change.csv & target.csv:
 
 		python time_classification.py 
 
-3. Generate smoothed_predictions.csv from predictions.csv, also creates predictions_comparison.png showing smoothing added.
+3. Generate smoothed_predictions.csv from predictions.csv, also creates predictions_comparison.png showing smoothing added:
 
   		python filter_predictions.py 
 
-4. Generate output video in transition.mp4 from smoothed_predictions.csv & video.mp4
+4. Generate output video in transition.mp4 from smoothed_predictions.csv & video.mp4:
 
   		python video_transition.py 
 
