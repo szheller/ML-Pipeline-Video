@@ -162,7 +162,7 @@ steps above, open a terminal (Anaconda Prompt on Windows), then run below:
 The resulting output video is found at:
 
   Output Video file:  
-  	https://drive.google.com/file/d/18gnPXg1titOYlCJo9AXw4yoTlmky5_i4/view?usp=sharing
+  https://drive.google.com/file/d/18gnPXg1titOYlCJo9AXw4yoTlmky5_i4/view?usp=sharing
   
 
  ---
