@@ -137,7 +137,7 @@ To run this Project, follow these steps:
 After Anaconda has been installed & activated following the Installation
 steps above, open a terminal (Anaconda Prompt on Windows), then run below:
 
-- Generate sudden_change.csv from provided_data.csv
+# Generate sudden_change.csv from provided_data.csv
 
 		python data_analysis2.py 
 
