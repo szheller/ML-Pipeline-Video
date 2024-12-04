@@ -122,11 +122,11 @@ Setting Up the Conda Environment
 
 - Run the following command:
 
-	conda env create -f environment.yaml
+		conda env create -f environment.yaml
 
 - Activate the new environment:
 
-	conda activate mleng_env
+		conda activate mleng_env
 
 ---
 To run this Project, follow these steps:
