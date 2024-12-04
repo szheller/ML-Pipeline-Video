@@ -121,9 +121,11 @@ Setting Up the Conda Environment
 - Open a terminal (Anaconda Prompt on Windows) to the directory containing environment.yaml
 
 - Run the following command:
+
 	conda env create -f environment.yaml
 
 - Activate the new environment:
+
 	conda activate mleng_env
 
 ---
