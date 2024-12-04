@@ -95,23 +95,26 @@ Install Anaconda:
 
 Windows:
 
-- Download & run the Conda installer for Windows from 	https://docs.conda.io/en/latest/miniconda.html
+- Download & run the Conda installer for Windows from
+  https://docs.conda.io/en/latest/miniconda.html
 
 - Open the Anaconda Prompt from the Start menu to use Conda
 
 macOS:
 
 - Open Terminal & run the following commands:
-	curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh
-	bash Miniconda3-latest-MacOSX-x86_64.sh
+
+		curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh
+		bash Miniconda3-latest-MacOSX-x86_64.sh
 
 - Restart your terminal or run source ~/.bash_profile
 
 Linux:
 
 - Open Terminal & run the following commands:
-	wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-	bash Miniconda3-latest-Linux-x86_64.sh
+  
+		wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+		bash Miniconda3-latest-Linux-x86_64.sh
 
 - Restart your terminal or run source ~/.bashrc
 
@@ -142,7 +145,7 @@ steps above, open a terminal (Anaconda Prompt on Windows), then run below:
 
 The resulting output video is found at:
 
-  Output Video file:  <Comming Soon - 10 hours so far, 18 hours total to finish generating>
+  Output Video file:  <Coming Soon - 10 hours so far, 18 hours total to finish generating>
 
  ---
 
