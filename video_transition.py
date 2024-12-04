@@ -75,7 +75,10 @@ def create_transition(cap, start_frame, end_frame, transition_type='fade', durat
 
 def main():
     # Load target.csv
-    target = pd.read_csv('predictions.csv')  # Assumes columns 'frame' and 'value'
+    target = pd.read_csv('smoothed_predictions.csv')  # Assumes columns 'frame' and 'value'
+
+    # Choose entries with sudden_change True
+    target = target[target['value'] == 1]
 
     print(target)
 
@@ -104,6 +107,7 @@ def main():
                 break
 
             print(row['frame'])
+            print(row['value'])
             print(index)
 
             # Select the next row using index + 1

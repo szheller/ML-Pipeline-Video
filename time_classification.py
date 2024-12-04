@@ -5,6 +5,7 @@ from sklearn.metrics import classification_report
 from sklearn.ensemble import RandomForestClassifier
 #from sklearn.ensemble import AdaBoostClassifier
 from sklearn.model_selection import GridSearchCV
+from sklearn.metrics import ConfusionMatrixDisplay
 import matplotlib.pyplot as plt
 import seaborn as sns
 from tqdm import tqdm
@@ -23,16 +24,29 @@ data['effort'] = data['effort'].interpolate(method='linear')
 data['frame'] = data['frame'].astype(int)
 
 # Load target.csv
-target = pd.read_csv('sudden_change.csv')  # Assumes columns 'frame' and 'value'
+target = pd.read_csv('target.csv')  # Assumes columns 'frame' and 'value'
 
 # Ensure 'frame' is integer type for merging
 target['frame'] = target['frame'].astype(int)
 
 # Merge data and target on 'frame'
-merged = pd.merge(data, target, on='frame', how='inner')
+merged1 = pd.merge(data, target, on='frame', how='inner')
+
+# Load sudden_change.csv
+sudden_change = pd.read_csv('sudden_change.csv')  # Assumes columns 'frame' and 'value'
+
+# Ensure 'frame' is integer type for merging
+sudden_change['frame'] = sudden_change['frame'].astype(int)
+
+# Rename value column to sudden_change to be unique from target
+sudden_change.columns = ['frame', 'sudden_change']
+
+# Merge data and target on 'frame'
+merged = pd.merge(merged1, sudden_change, on='frame', how='inner')
 
 # Features and target
-features = ['xc', 'yc', 'w', 'h', 'effort']
+features = ['xc', 'yc', 'w', 'h', 'effort', 'sudden_change']
+print(features)
 X = merged[features]
 y = merged['value']
 
@@ -80,6 +94,7 @@ y_pred = clf.predict(X_test)
 
 # Compute and print classification report
 print(classification_report(y_test, y_pred))
+ConfusionMatrixDisplay.from_estimator(clf, X_test, y_test)
 
 # Write predictions to CSV with the same syntax as target.csv
 predictions_df = pd.DataFrame({'frame': frames_test, 'value': y_pred})

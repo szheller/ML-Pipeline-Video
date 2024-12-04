@@ -68,7 +68,7 @@ plt.tight_layout()
 #plt.show()
 
 # Choose entries with sudden_change True
-df_new = data[data['sudden_change'] == True]
+df_new = data	#[data['sudden_change'] == True]
 
 # Display the first 5 rows
 print(df_new.head())
