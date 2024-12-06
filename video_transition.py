@@ -73,6 +73,32 @@ def create_transition(cap, start_frame, end_frame, transition_type='fade', durat
     
     return transition_frames
 
+def get_frame(cap, frame):
+    """
+    Get one frame in a video.
+    
+    Parameters:
+    cap: cv2.VideoCapture object
+    frame: int, frame number
+    
+    Returns:
+    frame requested
+    """
+    # Save original position
+    original_pos = int(cap.get(cv2.CAP_PROP_POS_FRAMES))
+    
+    # Get the two frames
+    cap.set(cv2.CAP_PROP_POS_FRAMES, frame)
+    ret, frame1 = cap.read()
+    
+    # Restore original position
+    cap.set(cv2.CAP_PROP_POS_FRAMES, original_pos)
+    
+    if not ret or frame1 is None:
+        raise ValueError(f"Could not read requested frame {frame1}")
+    
+    return frame1
+
 def main():
     # Load target.csv
     target = pd.read_csv('smoothed_predictions.csv')  # Assumes columns 'frame' and 'value'
@@ -80,7 +106,7 @@ def main():
     # Choose entries with sudden_change True
     target = target[target['value'] == 1]
 
-    print(target)
+    #print(target)
 
     # Ensure 'frame' is integer type for merging
     target['frame'] = target['frame'].astype(int)
@@ -102,43 +128,51 @@ def main():
         df = target
         done = False
 
-        for index, row in df.iterrows():
-            if done:
+        len_df = len(df)
+        print(f'len(df) = {len_df}')
+
+        for i in np.arange(len(df)-1):
+            if i > 900:
                 break
 
-            print(row['frame'])
-            print(row['value'])
-            print(index)
+            if i % 25:
+                print(f'i = {i}, frame = {frame}, next_frame = {next_frame}')
 
-            # Select the next row using index + 1
-            next_index = index + 1
-            if next_index < len(df):  # Ensure the next index is within bounds
-                next_row = df.iloc[next_index]
-                print(f"Next Row: {next_row.to_dict()}")
-                print(f"Next Row['frame']: {next_row['frame']}")
-
+            frame = df.iloc[i]['frame']
+            next_frame = df.iloc[i+1]['frame']
+            next_frames = next_frame - frame
+            if next_frames == 1:
+                #print(f'i = {i}, frame = {frame}, next_frame = {next_frame}')
+                pass
+                # Save frame
+                out.write(get_frame(cap, frame))
+            elif next_frames < 30:
+                print(f'		Not contiguous, < 30 frames: i = {i}, frame = {frame}, next_frame = {next_frame}')
+                print(f'                             Frames to skip: = {next_frame - frame}')
+                out.write(get_frame(cap, frame))
+            else:
+                print(f'Skip, call create_transition: i = {i}, frame = {frame}, next_frame = {next_frame}')
+                print(f'                             Frames to skip: = {next_frame - frame}')
                 # Create a fade transition between current frame and next frame
-                transition_frames = create_transition(cap, row['frame'], next_row['frame'], transition_type='fade', duration_frames=30)
+                transition_frames = create_transition(cap, frame, next_frame, transition_type='fade', duration_frames=30)
         
                 # Display and save the transition frames
-                for frame in transition_frames:
+                for frm in transition_frames:
                     # Display frame
-                    cv2.imshow('Transition', frame)
+                    #cv2.imshow('Transition', frm)
                     if cv2.waitKey(33) & 0xFF == ord('q'):  # Exit on 'q' press
                         done = True
                         break
                 
                     # Save frame
-                    out.write(frame)
-            else:
-                print("No next row (end of DataFrame).")
-                done = True
-                break
+                    out.write(frm)
+                #break
+
             
     except Exception as e:
         print(f"An error occurred: {str(e)}")
         
-    finally:
+    finally:q
         # Clean up resources
         cap.release()
         out.release()
