@@ -132,8 +132,8 @@ def main():
         print(f'len(df) = {len_df}')
 
         for i in np.arange(len(df)-1):
-            if i > 900:
-                break
+            #if i > 900:
+            #    break
 
             if i % 25:
                 print(f'i = {i}, frame = {frame}, next_frame = {next_frame}')
