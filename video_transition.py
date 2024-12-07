@@ -1,6 +1,7 @@
 import cv2
 import pandas as pd
 import numpy as np
+from datetime import datetime
 
 def create_transition(cap, start_frame, end_frame, transition_type='fade', duration_frames=30):
     """
@@ -100,6 +101,9 @@ def get_frame(cap, frame):
     return frame1
 
 def main():
+    # Print the current date and time
+    print("Current date and time:", datetime.now())
+
     # Load target.csv
     target = pd.read_csv('smoothed_predictions.csv')  # Assumes columns 'frame' and 'value'
 
@@ -135,26 +139,27 @@ def main():
             #if i > 900:
             #    break
 
-            if i % 25:
-                print(f'i = {i}, frame = {frame}, next_frame = {next_frame}')
-
             frame = df.iloc[i]['frame']
             next_frame = df.iloc[i+1]['frame']
+
+            if (i % 25)==0:
+                print(f'i = {i}, frame = {frame}, next_frame = {next_frame}')
+
             next_frames = next_frame - frame
             if next_frames == 1:
                 #print(f'i = {i}, frame = {frame}, next_frame = {next_frame}')
-                pass
+                #pass
                 # Save frame
                 out.write(get_frame(cap, frame))
-            elif next_frames < 30:
-                print(f'		Not contiguous, < 30 frames: i = {i}, frame = {frame}, next_frame = {next_frame}')
-                print(f'                             Frames to skip: = {next_frame - frame}')
-                out.write(get_frame(cap, frame))
             else:
-                print(f'Skip, call create_transition: i = {i}, frame = {frame}, next_frame = {next_frame}')
-                print(f'                             Frames to skip: = {next_frame - frame}')
+                if next_frames < 30:
+                    print(f'		Not contiguous, < 30 frames: i = {i}, frame = {frame}, next_frame = {next_frame}')
+
+                duration = min(30, next_frames)
+                print(f'Skip, call create_transition(duration_frames={duration}): i = {i}, frame = {frame}, next_frame = {next_frame}')
+                print(f'                             Frames to skip: = {next_frames}')
                 # Create a fade transition between current frame and next frame
-                transition_frames = create_transition(cap, frame, next_frame, transition_type='fade', duration_frames=30)
+                transition_frames = create_transition(cap, frame, next_frame, transition_type='fade', duration_frames=duration)
         
                 # Display and save the transition frames
                 for frm in transition_frames:
@@ -172,11 +177,14 @@ def main():
     except Exception as e:
         print(f"An error occurred: {str(e)}")
         
-    finally:q
+    finally:
         # Clean up resources
         cap.release()
         out.release()
         cv2.destroyAllWindows()
+
+        # Print the current date and time
+        print("Current date and time:", datetime.now())
 
 if __name__ == "__main__":
     main()
