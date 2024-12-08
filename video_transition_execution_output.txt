@@ -1,0 +1,617 @@
+(base) PS C:\Steve\OpenAvenues\Project> python .\video_transition.py
+Current date and time: 2024-12-06 03:22:26.500077
+len(df) = 4839
+i = 0, frame = 73425, next_frame = 73507
+Skip, call create_transition(duration_frames=30): i = 0, frame = 73425, next_frame = 73507
+                             Frames to skip: = 82
+Skip, call create_transition(duration_frames=30): i = 1, frame = 73507, next_frame = 73598
+                             Frames to skip: = 91
+i = 25, frame = 73621, next_frame = 73622
+i = 50, frame = 73646, next_frame = 73647
+i = 75, frame = 73671, next_frame = 73672
+i = 100, frame = 73696, next_frame = 73697
+i = 125, frame = 73721, next_frame = 73722
+i = 150, frame = 73746, next_frame = 73747
+i = 175, frame = 73771, next_frame = 73772
+                Not contiguous, < 30 frames: i = 177, frame = 73773, next_frame = 73775
+Skip, call create_transition(duration_frames=2): i = 177, frame = 73773, next_frame = 73775
+                             Frames to skip: = 2
+i = 200, frame = 73797, next_frame = 73798
+Skip, call create_transition(duration_frames=30): i = 219, frame = 73816, next_frame = 74478
+                             Frames to skip: = 662
+i = 225, frame = 74483, next_frame = 74484
+i = 250, frame = 74508, next_frame = 74509
+i = 275, frame = 74533, next_frame = 74534
+i = 300, frame = 74558, next_frame = 74559
+i = 325, frame = 74583, next_frame = 74584
+i = 350, frame = 74608, next_frame = 74609
+                Not contiguous, < 30 frames: i = 361, frame = 74619, next_frame = 74621
+Skip, call create_transition(duration_frames=2): i = 361, frame = 74619, next_frame = 74621
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 362, frame = 74621, next_frame = 74623
+Skip, call create_transition(duration_frames=2): i = 362, frame = 74621, next_frame = 74623
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 363, frame = 74623, next_frame = 74625
+Skip, call create_transition(duration_frames=2): i = 363, frame = 74623, next_frame = 74625
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 364, frame = 74625, next_frame = 74627
+Skip, call create_transition(duration_frames=2): i = 364, frame = 74625, next_frame = 74627
+                             Frames to skip: = 2
+i = 375, frame = 74637, next_frame = 74638
+Skip, call create_transition(duration_frames=30): i = 379, frame = 74641, next_frame = 74888
+                             Frames to skip: = 247
+i = 400, frame = 74908, next_frame = 74909
+i = 425, frame = 74933, next_frame = 74934
+i = 450, frame = 74958, next_frame = 74959
+i = 475, frame = 74983, next_frame = 74984
+i = 500, frame = 75008, next_frame = 75009
+i = 525, frame = 75033, next_frame = 75034
+i = 550, frame = 75058, next_frame = 75059
+i = 575, frame = 75083, next_frame = 75084
+i = 600, frame = 75108, next_frame = 75109
+i = 625, frame = 75133, next_frame = 75134
+Skip, call create_transition(duration_frames=30): i = 635, frame = 75143, next_frame = 75224
+                             Frames to skip: = 81
+                Not contiguous, < 30 frames: i = 643, frame = 75231, next_frame = 75233
+Skip, call create_transition(duration_frames=2): i = 643, frame = 75231, next_frame = 75233
+                             Frames to skip: = 2
+i = 650, frame = 75239, next_frame = 75240
+i = 675, frame = 75264, next_frame = 75265
+i = 700, frame = 75289, next_frame = 75290
+i = 725, frame = 75314, next_frame = 75315
+i = 750, frame = 75339, next_frame = 75340
+                Not contiguous, < 30 frames: i = 757, frame = 75346, next_frame = 75362
+Skip, call create_transition(duration_frames=16): i = 757, frame = 75346, next_frame = 75362
+                             Frames to skip: = 16
+i = 775, frame = 75379, next_frame = 75380
+Skip, call create_transition(duration_frames=30): i = 778, frame = 75382, next_frame = 75860
+                             Frames to skip: = 478
+i = 800, frame = 75881, next_frame = 75882
+i = 825, frame = 75906, next_frame = 75907
+i = 850, frame = 75931, next_frame = 75932
+i = 875, frame = 75956, next_frame = 75957
+i = 900, frame = 75981, next_frame = 75982
+i = 925, frame = 76006, next_frame = 76007
+Skip, call create_transition(duration_frames=30): i = 929, frame = 76010, next_frame = 77251
+                             Frames to skip: = 1241
+i = 950, frame = 77271, next_frame = 77272
+i = 975, frame = 77296, next_frame = 77297
+i = 1000, frame = 77321, next_frame = 77322
+i = 1025, frame = 77346, next_frame = 77347
+i = 1050, frame = 77371, next_frame = 77372
+i = 1075, frame = 77396, next_frame = 77397
+i = 1100, frame = 77421, next_frame = 77422
+i = 1125, frame = 77446, next_frame = 77447
+Skip, call create_transition(duration_frames=30): i = 1146, frame = 77467, next_frame = 78370
+                             Frames to skip: = 903
+                Not contiguous, < 30 frames: i = 1147, frame = 78370, next_frame = 78379
+Skip, call create_transition(duration_frames=9): i = 1147, frame = 78370, next_frame = 78379
+                             Frames to skip: = 9
+i = 1150, frame = 78381, next_frame = 78382
+                Not contiguous, < 30 frames: i = 1156, frame = 78387, next_frame = 78396
+Skip, call create_transition(duration_frames=9): i = 1156, frame = 78387, next_frame = 78396
+                             Frames to skip: = 9
+Skip, call create_transition(duration_frames=30): i = 1163, frame = 78402, next_frame = 78466
+                             Frames to skip: = 64
+Skip, call create_transition(duration_frames=30): i = 1164, frame = 78466, next_frame = 78580
+                             Frames to skip: = 114
+Skip, call create_transition(duration_frames=30): i = 1165, frame = 78580, next_frame = 78649
+                             Frames to skip: = 69
+i = 1175, frame = 78658, next_frame = 78659
+i = 1200, frame = 78683, next_frame = 78684
+i = 1225, frame = 78708, next_frame = 78709
+i = 1250, frame = 78733, next_frame = 78734
+i = 1275, frame = 78758, next_frame = 78759
+i = 1300, frame = 78783, next_frame = 78784
+Skip, call create_transition(duration_frames=30): i = 1318, frame = 78801, next_frame = 79298
+                             Frames to skip: = 497
+                Not contiguous, < 30 frames: i = 1319, frame = 79298, next_frame = 79325
+Skip, call create_transition(duration_frames=27): i = 1319, frame = 79298, next_frame = 79325
+                             Frames to skip: = 27
+Skip, call create_transition(duration_frames=30): i = 1320, frame = 79325, next_frame = 79357
+                             Frames to skip: = 32
+i = 1325, frame = 79361, next_frame = 79362
+i = 1350, frame = 79386, next_frame = 79387
+i = 1375, frame = 79411, next_frame = 79412
+i = 1400, frame = 79436, next_frame = 79437
+Skip, call create_transition(duration_frames=30): i = 1401, frame = 79437, next_frame = 80379
+                             Frames to skip: = 942
+i = 1425, frame = 80402, next_frame = 80403
+Skip, call create_transition(duration_frames=30): i = 1431, frame = 80408, next_frame = 81063
+                             Frames to skip: = 655
+i = 1450, frame = 81081, next_frame = 81082
+i = 1475, frame = 81106, next_frame = 81107
+i = 1500, frame = 81131, next_frame = 81132
+i = 1525, frame = 81156, next_frame = 81157
+i = 1550, frame = 81181, next_frame = 81182
+                Not contiguous, < 30 frames: i = 1563, frame = 81194, next_frame = 81196
+Skip, call create_transition(duration_frames=2): i = 1563, frame = 81194, next_frame = 81196
+                             Frames to skip: = 2
+i = 1575, frame = 81207, next_frame = 81208
+Skip, call create_transition(duration_frames=30): i = 1599, frame = 81231, next_frame = 81637
+                             Frames to skip: = 406
+i = 1600, frame = 81637, next_frame = 81638
+i = 1625, frame = 81662, next_frame = 81663
+i = 1650, frame = 81687, next_frame = 81688
+Skip, call create_transition(duration_frames=30): i = 1660, frame = 81697, next_frame = 81794
+                             Frames to skip: = 97
+i = 1675, frame = 81808, next_frame = 81809
+i = 1700, frame = 81833, next_frame = 81834
+i = 1725, frame = 81858, next_frame = 81859
+i = 1750, frame = 81883, next_frame = 81884
+                Not contiguous, < 30 frames: i = 1752, frame = 81885, next_frame = 81913
+Skip, call create_transition(duration_frames=28): i = 1752, frame = 81885, next_frame = 81913
+                             Frames to skip: = 28
+Skip, call create_transition(duration_frames=30): i = 1767, frame = 81927, next_frame = 83222
+                             Frames to skip: = 1295
+i = 1775, frame = 83229, next_frame = 83230
+i = 1800, frame = 83254, next_frame = 83255
+i = 1825, frame = 83279, next_frame = 83280
+i = 1850, frame = 83304, next_frame = 83305
+i = 1875, frame = 83329, next_frame = 83341
+                Not contiguous, < 30 frames: i = 1875, frame = 83329, next_frame = 83341
+Skip, call create_transition(duration_frames=12): i = 1875, frame = 83329, next_frame = 83341
+                             Frames to skip: = 12
+                Not contiguous, < 30 frames: i = 1876, frame = 83341, next_frame = 83354
+Skip, call create_transition(duration_frames=13): i = 1876, frame = 83341, next_frame = 83354
+                             Frames to skip: = 13
+Skip, call create_transition(duration_frames=30): i = 1890, frame = 83367, next_frame = 83883
+                             Frames to skip: = 516
+i = 1900, frame = 83892, next_frame = 83893
+i = 1925, frame = 83917, next_frame = 83918
+                Not contiguous, < 30 frames: i = 1930, frame = 83922, next_frame = 83940
+Skip, call create_transition(duration_frames=18): i = 1930, frame = 83922, next_frame = 83940
+                             Frames to skip: = 18
+i = 1950, frame = 83959, next_frame = 83960
+Skip, call create_transition(duration_frames=30): i = 1961, frame = 83970, next_frame = 84017
+                             Frames to skip: = 47
+i = 1975, frame = 84030, next_frame = 84052
+                Not contiguous, < 30 frames: i = 1975, frame = 84030, next_frame = 84052
+Skip, call create_transition(duration_frames=22): i = 1975, frame = 84030, next_frame = 84052
+                             Frames to skip: = 22
+                Not contiguous, < 30 frames: i = 1976, frame = 84052, next_frame = 84054
+Skip, call create_transition(duration_frames=2): i = 1976, frame = 84052, next_frame = 84054
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 1977, frame = 84054, next_frame = 84056
+Skip, call create_transition(duration_frames=2): i = 1977, frame = 84054, next_frame = 84056
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 1998, frame = 84076, next_frame = 84090
+Skip, call create_transition(duration_frames=14): i = 1998, frame = 84076, next_frame = 84090
+                             Frames to skip: = 14
+Skip, call create_transition(duration_frames=30): i = 1999, frame = 84090, next_frame = 84124
+                             Frames to skip: = 34
+i = 2000, frame = 84124, next_frame = 84810
+Skip, call create_transition(duration_frames=30): i = 2000, frame = 84124, next_frame = 84810
+                             Frames to skip: = 686
+                Not contiguous, < 30 frames: i = 2013, frame = 84822, next_frame = 84824
+Skip, call create_transition(duration_frames=2): i = 2013, frame = 84822, next_frame = 84824
+                             Frames to skip: = 2
+i = 2025, frame = 84835, next_frame = 84836
+                Not contiguous, < 30 frames: i = 2038, frame = 84848, next_frame = 84862
+Skip, call create_transition(duration_frames=14): i = 2038, frame = 84848, next_frame = 84862
+                             Frames to skip: = 14
+                Not contiguous, < 30 frames: i = 2039, frame = 84862, next_frame = 84864
+Skip, call create_transition(duration_frames=2): i = 2039, frame = 84862, next_frame = 84864
+                             Frames to skip: = 2
+Skip, call create_transition(duration_frames=30): i = 2040, frame = 84864, next_frame = 85395
+                             Frames to skip: = 531
+i = 2050, frame = 85404, next_frame = 85405
+i = 2075, frame = 85429, next_frame = 85430
+i = 2100, frame = 85454, next_frame = 85455
+i = 2125, frame = 85479, next_frame = 85480
+Skip, call create_transition(duration_frames=30): i = 2137, frame = 85491, next_frame = 85713
+                             Frames to skip: = 222
+i = 2150, frame = 85725, next_frame = 85726
+Skip, call create_transition(duration_frames=30): i = 2163, frame = 85738, next_frame = 85806
+                             Frames to skip: = 68
+                Not contiguous, < 30 frames: i = 2165, frame = 85807, next_frame = 85809
+Skip, call create_transition(duration_frames=2): i = 2165, frame = 85807, next_frame = 85809
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 2170, frame = 85813, next_frame = 85821
+Skip, call create_transition(duration_frames=8): i = 2170, frame = 85813, next_frame = 85821
+                             Frames to skip: = 8
+                Not contiguous, < 30 frames: i = 2171, frame = 85821, next_frame = 85823
+Skip, call create_transition(duration_frames=2): i = 2171, frame = 85821, next_frame = 85823
+                             Frames to skip: = 2
+Skip, call create_transition(duration_frames=30): i = 2173, frame = 85824, next_frame = 86355
+                             Frames to skip: = 531
+i = 2175, frame = 86356, next_frame = 86357
+Skip, call create_transition(duration_frames=30): i = 2184, frame = 86365, next_frame = 86458
+                             Frames to skip: = 93
+i = 2200, frame = 86473, next_frame = 86474
+i = 2225, frame = 86498, next_frame = 86499
+i = 2250, frame = 86523, next_frame = 86524
+i = 2275, frame = 86548, next_frame = 86549
+Skip, call create_transition(duration_frames=30): i = 2283, frame = 86556, next_frame = 86993
+                             Frames to skip: = 437
+i = 2300, frame = 87009, next_frame = 87010
+                Not contiguous, < 30 frames: i = 2324, frame = 87033, next_frame = 87035
+Skip, call create_transition(duration_frames=2): i = 2324, frame = 87033, next_frame = 87035
+                             Frames to skip: = 2
+i = 2325, frame = 87035, next_frame = 87036
+i = 2350, frame = 87060, next_frame = 87061
+i = 2375, frame = 87085, next_frame = 87086
+                Not contiguous, < 30 frames: i = 2376, frame = 87086, next_frame = 87093
+Skip, call create_transition(duration_frames=7): i = 2376, frame = 87086, next_frame = 87093
+                             Frames to skip: = 7
+                Not contiguous, < 30 frames: i = 2377, frame = 87093, next_frame = 87095
+Skip, call create_transition(duration_frames=2): i = 2377, frame = 87093, next_frame = 87095
+                             Frames to skip: = 2
+i = 2400, frame = 87117, next_frame = 87118
+i = 2425, frame = 87142, next_frame = 87143
+i = 2450, frame = 87167, next_frame = 87168
+                Not contiguous, < 30 frames: i = 2458, frame = 87175, next_frame = 87182
+Skip, call create_transition(duration_frames=7): i = 2458, frame = 87175, next_frame = 87182
+                             Frames to skip: = 7
+                Not contiguous, < 30 frames: i = 2459, frame = 87182, next_frame = 87184
+Skip, call create_transition(duration_frames=2): i = 2459, frame = 87182, next_frame = 87184
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 2463, frame = 87187, next_frame = 87194
+Skip, call create_transition(duration_frames=7): i = 2463, frame = 87187, next_frame = 87194
+                             Frames to skip: = 7
+i = 2475, frame = 87205, next_frame = 87206
+                Not contiguous, < 30 frames: i = 2484, frame = 87214, next_frame = 87218
+Skip, call create_transition(duration_frames=4): i = 2484, frame = 87214, next_frame = 87218
+                             Frames to skip: = 4
+i = 2500, frame = 87233, next_frame = 87234
+i = 2525, frame = 87258, next_frame = 87259
+i = 2550, frame = 87283, next_frame = 87284
+i = 2575, frame = 87308, next_frame = 87309
+i = 2600, frame = 87333, next_frame = 87334
+                Not contiguous, < 30 frames: i = 2602, frame = 87335, next_frame = 87337
+Skip, call create_transition(duration_frames=2): i = 2602, frame = 87335, next_frame = 87337
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 2603, frame = 87337, next_frame = 87339
+Skip, call create_transition(duration_frames=2): i = 2603, frame = 87337, next_frame = 87339
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 2609, frame = 87344, next_frame = 87349
+Skip, call create_transition(duration_frames=5): i = 2609, frame = 87344, next_frame = 87349
+                             Frames to skip: = 5
+Skip, call create_transition(duration_frames=30): i = 2614, frame = 87353, next_frame = 88037
+                             Frames to skip: = 684
+i = 2625, frame = 88047, next_frame = 88048
+i = 2650, frame = 88072, next_frame = 88073
+Skip, call create_transition(duration_frames=30): i = 2671, frame = 88093, next_frame = 88810
+                             Frames to skip: = 717
+i = 2675, frame = 88813, next_frame = 88814
+Skip, call create_transition(duration_frames=30): i = 2691, frame = 88829, next_frame = 88869
+                             Frames to skip: = 40
+                Not contiguous, < 30 frames: i = 2699, frame = 88876, next_frame = 88878
+Skip, call create_transition(duration_frames=2): i = 2699, frame = 88876, next_frame = 88878
+                             Frames to skip: = 2
+i = 2700, frame = 88878, next_frame = 88952
+Skip, call create_transition(duration_frames=30): i = 2700, frame = 88878, next_frame = 88952
+                             Frames to skip: = 74
+                Not contiguous, < 30 frames: i = 2701, frame = 88952, next_frame = 88954
+Skip, call create_transition(duration_frames=2): i = 2701, frame = 88952, next_frame = 88954
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 2702, frame = 88954, next_frame = 88956
+Skip, call create_transition(duration_frames=2): i = 2702, frame = 88954, next_frame = 88956
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 2716, frame = 88969, next_frame = 88971
+Skip, call create_transition(duration_frames=2): i = 2716, frame = 88969, next_frame = 88971
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 2717, frame = 88971, next_frame = 88973
+Skip, call create_transition(duration_frames=2): i = 2717, frame = 88971, next_frame = 88973
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 2718, frame = 88973, next_frame = 88975
+Skip, call create_transition(duration_frames=2): i = 2718, frame = 88973, next_frame = 88975
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 2719, frame = 88975, next_frame = 88977
+Skip, call create_transition(duration_frames=2): i = 2719, frame = 88975, next_frame = 88977
+                             Frames to skip: = 2
+Skip, call create_transition(duration_frames=30): i = 2720, frame = 88977, next_frame = 89423
+                             Frames to skip: = 446
+i = 2725, frame = 89427, next_frame = 89428
+                Not contiguous, < 30 frames: i = 2737, frame = 89439, next_frame = 89442
+Skip, call create_transition(duration_frames=3): i = 2737, frame = 89439, next_frame = 89442
+                             Frames to skip: = 3
+                Not contiguous, < 30 frames: i = 2746, frame = 89450, next_frame = 89452
+Skip, call create_transition(duration_frames=2): i = 2746, frame = 89450, next_frame = 89452
+                             Frames to skip: = 2
+Skip, call create_transition(duration_frames=30): i = 2747, frame = 89452, next_frame = 89486
+                             Frames to skip: = 34
+i = 2750, frame = 89488, next_frame = 89489
+i = 2775, frame = 89513, next_frame = 89514
+Skip, call create_transition(duration_frames=30): i = 2797, frame = 89535, next_frame = 90072
+                             Frames to skip: = 537
+                Not contiguous, < 30 frames: i = 2798, frame = 90072, next_frame = 90074
+Skip, call create_transition(duration_frames=2): i = 2798, frame = 90072, next_frame = 90074
+                             Frames to skip: = 2
+i = 2800, frame = 90075, next_frame = 90076
+                Not contiguous, < 30 frames: i = 2805, frame = 90080, next_frame = 90082
+Skip, call create_transition(duration_frames=2): i = 2805, frame = 90080, next_frame = 90082
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 2806, frame = 90082, next_frame = 90102
+Skip, call create_transition(duration_frames=20): i = 2806, frame = 90082, next_frame = 90102
+                             Frames to skip: = 20
+Skip, call create_transition(duration_frames=30): i = 2822, frame = 90117, next_frame = 90172
+                             Frames to skip: = 55
+i = 2825, frame = 90174, next_frame = 90175
+                Not contiguous, < 30 frames: i = 2832, frame = 90181, next_frame = 90194
+Skip, call create_transition(duration_frames=13): i = 2832, frame = 90181, next_frame = 90194
+                             Frames to skip: = 13
+i = 2850, frame = 90211, next_frame = 90212
+Skip, call create_transition(duration_frames=30): i = 2867, frame = 90228, next_frame = 90835
+                             Frames to skip: = 607
+i = 2875, frame = 90842, next_frame = 90843
+i = 2900, frame = 90867, next_frame = 90868
+i = 2925, frame = 90892, next_frame = 90893
+                Not contiguous, < 30 frames: i = 2947, frame = 90914, next_frame = 90916
+Skip, call create_transition(duration_frames=2): i = 2947, frame = 90914, next_frame = 90916
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 2948, frame = 90916, next_frame = 90918
+Skip, call create_transition(duration_frames=2): i = 2948, frame = 90916, next_frame = 90918
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 2949, frame = 90918, next_frame = 90920
+Skip, call create_transition(duration_frames=2): i = 2949, frame = 90918, next_frame = 90920
+                             Frames to skip: = 2
+i = 2950, frame = 90920, next_frame = 90921
+                Not contiguous, < 30 frames: i = 2970, frame = 90940, next_frame = 90942
+Skip, call create_transition(duration_frames=2): i = 2970, frame = 90940, next_frame = 90942
+                             Frames to skip: = 2
+i = 2975, frame = 90946, next_frame = 90947
+                Not contiguous, < 30 frames: i = 2987, frame = 90958, next_frame = 90960
+Skip, call create_transition(duration_frames=2): i = 2987, frame = 90958, next_frame = 90960
+                             Frames to skip: = 2
+i = 3000, frame = 90972, next_frame = 90973
+Skip, call create_transition(duration_frames=30): i = 3024, frame = 90996, next_frame = 91212
+                             Frames to skip: = 216
+i = 3025, frame = 91212, next_frame = 91214
+                Not contiguous, < 30 frames: i = 3025, frame = 91212, next_frame = 91214
+Skip, call create_transition(duration_frames=2): i = 3025, frame = 91212, next_frame = 91214
+                             Frames to skip: = 2
+Skip, call create_transition(duration_frames=30): i = 3028, frame = 91216, next_frame = 91823
+                             Frames to skip: = 607
+i = 3050, frame = 91844, next_frame = 91845
+i = 3075, frame = 91869, next_frame = 91870
+i = 3100, frame = 91894, next_frame = 91895
+i = 3125, frame = 91919, next_frame = 91920
+i = 3150, frame = 91944, next_frame = 91945
+i = 3175, frame = 91969, next_frame = 91970
+i = 3200, frame = 91994, next_frame = 91995
+i = 3225, frame = 92019, next_frame = 92020
+Skip, call create_transition(duration_frames=30): i = 3228, frame = 92022, next_frame = 92082
+                             Frames to skip: = 60
+                Not contiguous, < 30 frames: i = 3229, frame = 92082, next_frame = 92084
+Skip, call create_transition(duration_frames=2): i = 3229, frame = 92082, next_frame = 92084
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 3238, frame = 92092, next_frame = 92094
+Skip, call create_transition(duration_frames=2): i = 3238, frame = 92092, next_frame = 92094
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 3239, frame = 92094, next_frame = 92096
+Skip, call create_transition(duration_frames=2): i = 3239, frame = 92094, next_frame = 92096
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 3244, frame = 92100, next_frame = 92102
+Skip, call create_transition(duration_frames=2): i = 3244, frame = 92100, next_frame = 92102
+                             Frames to skip: = 2
+Skip, call create_transition(duration_frames=30): i = 3245, frame = 92102, next_frame = 92497
+                             Frames to skip: = 395
+i = 3250, frame = 92501, next_frame = 92502
+i = 3275, frame = 92526, next_frame = 92527
+i = 3300, frame = 92551, next_frame = 92552
+i = 3325, frame = 92576, next_frame = 92577
+i = 3350, frame = 92601, next_frame = 92602
+i = 3375, frame = 92626, next_frame = 92627
+i = 3400, frame = 92651, next_frame = 92652
+i = 3425, frame = 92676, next_frame = 92677
+i = 3450, frame = 92701, next_frame = 92702
+i = 3475, frame = 92726, next_frame = 92727
+i = 3500, frame = 92751, next_frame = 92752
+i = 3525, frame = 92776, next_frame = 92777
+Skip, call create_transition(duration_frames=30): i = 3549, frame = 92800, next_frame = 93655
+                             Frames to skip: = 855
+i = 3550, frame = 93655, next_frame = 93656
+                Not contiguous, < 30 frames: i = 3553, frame = 93658, next_frame = 93660
+Skip, call create_transition(duration_frames=2): i = 3553, frame = 93658, next_frame = 93660
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 3554, frame = 93660, next_frame = 93663
+Skip, call create_transition(duration_frames=3): i = 3554, frame = 93660, next_frame = 93663
+                             Frames to skip: = 3
+                Not contiguous, < 30 frames: i = 3559, frame = 93667, next_frame = 93675
+Skip, call create_transition(duration_frames=8): i = 3559, frame = 93667, next_frame = 93675
+                             Frames to skip: = 8
+i = 3575, frame = 93690, next_frame = 93691
+                Not contiguous, < 30 frames: i = 3590, frame = 93705, next_frame = 93707
+Skip, call create_transition(duration_frames=2): i = 3590, frame = 93705, next_frame = 93707
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 3598, frame = 93714, next_frame = 93722
+Skip, call create_transition(duration_frames=8): i = 3598, frame = 93714, next_frame = 93722
+                             Frames to skip: = 8
+                Not contiguous, < 30 frames: i = 3599, frame = 93722, next_frame = 93724
+Skip, call create_transition(duration_frames=2): i = 3599, frame = 93722, next_frame = 93724
+                             Frames to skip: = 2
+i = 3600, frame = 93724, next_frame = 94398
+Skip, call create_transition(duration_frames=30): i = 3600, frame = 93724, next_frame = 94398
+                             Frames to skip: = 674
+i = 3625, frame = 94422, next_frame = 94423
+i = 3650, frame = 94447, next_frame = 94448
+i = 3675, frame = 94472, next_frame = 94473
+Skip, call create_transition(duration_frames=30): i = 3696, frame = 94493, next_frame = 95240
+                             Frames to skip: = 747
+i = 3700, frame = 95243, next_frame = 95244
+i = 3725, frame = 95268, next_frame = 95269
+i = 3750, frame = 95293, next_frame = 95294
+i = 3775, frame = 95318, next_frame = 95319
+i = 3800, frame = 95343, next_frame = 95344
+i = 3825, frame = 95368, next_frame = 95369
+i = 3850, frame = 95393, next_frame = 95394
+i = 3875, frame = 95418, next_frame = 95419
+                Not contiguous, < 30 frames: i = 3885, frame = 95428, next_frame = 95430
+Skip, call create_transition(duration_frames=2): i = 3885, frame = 95428, next_frame = 95430
+                             Frames to skip: = 2
+Skip, call create_transition(duration_frames=30): i = 3886, frame = 95430, next_frame = 95513
+                             Frames to skip: = 83
+                Not contiguous, < 30 frames: i = 3887, frame = 95513, next_frame = 95515
+Skip, call create_transition(duration_frames=2): i = 3887, frame = 95513, next_frame = 95515
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 3889, frame = 95516, next_frame = 95524
+Skip, call create_transition(duration_frames=8): i = 3889, frame = 95516, next_frame = 95524
+                             Frames to skip: = 8
+Skip, call create_transition(duration_frames=30): i = 3898, frame = 95532, next_frame = 96098
+                             Frames to skip: = 566
+i = 3900, frame = 96099, next_frame = 96100
+i = 3925, frame = 96124, next_frame = 96125
+i = 3950, frame = 96149, next_frame = 96150
+i = 3975, frame = 96174, next_frame = 96175
+i = 4000, frame = 96199, next_frame = 96200
+i = 4025, frame = 96224, next_frame = 96225
+i = 4050, frame = 96249, next_frame = 96250
+i = 4075, frame = 96274, next_frame = 96275
+                Not contiguous, < 30 frames: i = 4090, frame = 96289, next_frame = 96296
+Skip, call create_transition(duration_frames=7): i = 4090, frame = 96289, next_frame = 96296
+                             Frames to skip: = 7
+i = 4100, frame = 96305, next_frame = 96306
+Skip, call create_transition(duration_frames=30): i = 4116, frame = 96321, next_frame = 96866
+                             Frames to skip: = 545
+                Not contiguous, < 30 frames: i = 4119, frame = 96868, next_frame = 96870
+Skip, call create_transition(duration_frames=2): i = 4119, frame = 96868, next_frame = 96870
+                             Frames to skip: = 2
+i = 4125, frame = 96875, next_frame = 96876
+i = 4150, frame = 96900, next_frame = 96901
+i = 4175, frame = 96925, next_frame = 96926
+i = 4200, frame = 96950, next_frame = 96951
+i = 4225, frame = 96975, next_frame = 96976
+i = 4250, frame = 97000, next_frame = 97001
+i = 4275, frame = 97025, next_frame = 97026
+Skip, call create_transition(duration_frames=30): i = 4296, frame = 97046, next_frame = 97157
+                             Frames to skip: = 111
+i = 4300, frame = 97160, next_frame = 97161
+Skip, call create_transition(duration_frames=30): i = 4317, frame = 97177, next_frame = 97566
+                             Frames to skip: = 389
+                Not contiguous, < 30 frames: i = 4318, frame = 97566, next_frame = 97569
+Skip, call create_transition(duration_frames=3): i = 4318, frame = 97566, next_frame = 97569
+                             Frames to skip: = 3
+                Not contiguous, < 30 frames: i = 4320, frame = 97570, next_frame = 97590
+Skip, call create_transition(duration_frames=20): i = 4320, frame = 97570, next_frame = 97590
+                             Frames to skip: = 20
+i = 4325, frame = 97594, next_frame = 97595
+                Not contiguous, < 30 frames: i = 4336, frame = 97605, next_frame = 97607
+Skip, call create_transition(duration_frames=2): i = 4336, frame = 97605, next_frame = 97607
+                             Frames to skip: = 2
+i = 4350, frame = 97620, next_frame = 97621
+                Not contiguous, < 30 frames: i = 4357, frame = 97627, next_frame = 97629
+Skip, call create_transition(duration_frames=2): i = 4357, frame = 97627, next_frame = 97629
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 4358, frame = 97629, next_frame = 97635
+Skip, call create_transition(duration_frames=6): i = 4358, frame = 97629, next_frame = 97635
+                             Frames to skip: = 6
+                Not contiguous, < 30 frames: i = 4361, frame = 97637, next_frame = 97639
+Skip, call create_transition(duration_frames=2): i = 4361, frame = 97637, next_frame = 97639
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 4362, frame = 97639, next_frame = 97645
+Skip, call create_transition(duration_frames=6): i = 4362, frame = 97639, next_frame = 97645
+                             Frames to skip: = 6
+Skip, call create_transition(duration_frames=30): i = 4370, frame = 97652, next_frame = 97689
+                             Frames to skip: = 37
+Skip, call create_transition(duration_frames=30): i = 4371, frame = 97689, next_frame = 97747
+                             Frames to skip: = 58
+i = 4375, frame = 97750, next_frame = 97751
+                Not contiguous, < 30 frames: i = 4377, frame = 97752, next_frame = 97754
+Skip, call create_transition(duration_frames=2): i = 4377, frame = 97752, next_frame = 97754
+                             Frames to skip: = 2
+Skip, call create_transition(duration_frames=30): i = 4378, frame = 97754, next_frame = 98185
+                             Frames to skip: = 431
+                Not contiguous, < 30 frames: i = 4396, frame = 98202, next_frame = 98204
+Skip, call create_transition(duration_frames=2): i = 4396, frame = 98202, next_frame = 98204
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 4398, frame = 98205, next_frame = 98214
+Skip, call create_transition(duration_frames=9): i = 4398, frame = 98205, next_frame = 98214
+                             Frames to skip: = 9
+Skip, call create_transition(duration_frames=30): i = 4399, frame = 98214, next_frame = 99363
+                             Frames to skip: = 1149
+i = 4400, frame = 99363, next_frame = 99369
+                Not contiguous, < 30 frames: i = 4400, frame = 99363, next_frame = 99369
+Skip, call create_transition(duration_frames=6): i = 4400, frame = 99363, next_frame = 99369
+                             Frames to skip: = 6
+i = 4425, frame = 99393, next_frame = 99394
+Skip, call create_transition(duration_frames=30): i = 4443, frame = 99411, next_frame = 99465
+                             Frames to skip: = 54
+i = 4450, frame = 99471, next_frame = 99472
+i = 4475, frame = 99496, next_frame = 99497
+i = 4500, frame = 99521, next_frame = 99522
+Skip, call create_transition(duration_frames=30): i = 4520, frame = 99541, next_frame = 99652
+                             Frames to skip: = 111
+                Not contiguous, < 30 frames: i = 4521, frame = 99652, next_frame = 99654
+Skip, call create_transition(duration_frames=2): i = 4521, frame = 99652, next_frame = 99654
+                             Frames to skip: = 2
+i = 4525, frame = 99657, next_frame = 99659
+                Not contiguous, < 30 frames: i = 4525, frame = 99657, next_frame = 99659
+Skip, call create_transition(duration_frames=2): i = 4525, frame = 99657, next_frame = 99659
+                             Frames to skip: = 2
+Skip, call create_transition(duration_frames=30): i = 4526, frame = 99659, next_frame = 100274
+                             Frames to skip: = 615
+i = 4550, frame = 100297, next_frame = 100298
+                Not contiguous, < 30 frames: i = 4572, frame = 100319, next_frame = 100322
+Skip, call create_transition(duration_frames=3): i = 4572, frame = 100319, next_frame = 100322
+                             Frames to skip: = 3
+                Not contiguous, < 30 frames: i = 4573, frame = 100322, next_frame = 100339
+Skip, call create_transition(duration_frames=17): i = 4573, frame = 100322, next_frame = 100339
+                             Frames to skip: = 17
+                Not contiguous, < 30 frames: i = 4574, frame = 100339, next_frame = 100343
+Skip, call create_transition(duration_frames=4): i = 4574, frame = 100339, next_frame = 100343
+                             Frames to skip: = 4
+i = 4575, frame = 100343, next_frame = 100345
+                Not contiguous, < 30 frames: i = 4575, frame = 100343, next_frame = 100345
+Skip, call create_transition(duration_frames=2): i = 4575, frame = 100343, next_frame = 100345
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 4580, frame = 100349, next_frame = 100358
+Skip, call create_transition(duration_frames=9): i = 4580, frame = 100349, next_frame = 100358
+                             Frames to skip: = 9
+                Not contiguous, < 30 frames: i = 4583, frame = 100360, next_frame = 100369
+Skip, call create_transition(duration_frames=9): i = 4583, frame = 100360, next_frame = 100369
+                             Frames to skip: = 9
+                Not contiguous, < 30 frames: i = 4588, frame = 100373, next_frame = 100375
+Skip, call create_transition(duration_frames=2): i = 4588, frame = 100373, next_frame = 100375
+                             Frames to skip: = 2
+i = 4600, frame = 100386, next_frame = 100387
+i = 4625, frame = 100411, next_frame = 100412
+i = 4650, frame = 100436, next_frame = 100437
+Skip, call create_transition(duration_frames=30): i = 4653, frame = 100439, next_frame = 100971
+                             Frames to skip: = 532
+i = 4675, frame = 100992, next_frame = 100993
+Skip, call create_transition(duration_frames=30): i = 4678, frame = 100995, next_frame = 101046
+                             Frames to skip: = 51
+i = 4700, frame = 101067, next_frame = 101068
+                Not contiguous, < 30 frames: i = 4708, frame = 101075, next_frame = 101077
+Skip, call create_transition(duration_frames=2): i = 4708, frame = 101075, next_frame = 101077
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 4709, frame = 101077, next_frame = 101079
+Skip, call create_transition(duration_frames=2): i = 4709, frame = 101077, next_frame = 101079
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 4713, frame = 101082, next_frame = 101087
+Skip, call create_transition(duration_frames=5): i = 4713, frame = 101082, next_frame = 101087
+                             Frames to skip: = 5
+                Not contiguous, < 30 frames: i = 4720, frame = 101093, next_frame = 101099
+Skip, call create_transition(duration_frames=6): i = 4720, frame = 101093, next_frame = 101099
+                             Frames to skip: = 6
+                Not contiguous, < 30 frames: i = 4724, frame = 101102, next_frame = 101104
+Skip, call create_transition(duration_frames=2): i = 4724, frame = 101102, next_frame = 101104
+                             Frames to skip: = 2
+i = 4725, frame = 101104, next_frame = 101106
+                Not contiguous, < 30 frames: i = 4725, frame = 101104, next_frame = 101106
+Skip, call create_transition(duration_frames=2): i = 4725, frame = 101104, next_frame = 101106
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 4729, frame = 101109, next_frame = 101118
+Skip, call create_transition(duration_frames=9): i = 4729, frame = 101109, next_frame = 101118
+                             Frames to skip: = 9
+                Not contiguous, < 30 frames: i = 4730, frame = 101118, next_frame = 101120
+Skip, call create_transition(duration_frames=2): i = 4730, frame = 101118, next_frame = 101120
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 4731, frame = 101120, next_frame = 101130
+Skip, call create_transition(duration_frames=10): i = 4731, frame = 101120, next_frame = 101130
+                             Frames to skip: = 10
+Skip, call create_transition(duration_frames=30): i = 4737, frame = 101135, next_frame = 101222
+                             Frames to skip: = 87
+                Not contiguous, < 30 frames: i = 4738, frame = 101222, next_frame = 101224
+Skip, call create_transition(duration_frames=2): i = 4738, frame = 101222, next_frame = 101224
+                             Frames to skip: = 2
+                Not contiguous, < 30 frames: i = 4739, frame = 101224, next_frame = 101226
+Skip, call create_transition(duration_frames=2): i = 4739, frame = 101224, next_frame = 101226
+                             Frames to skip: = 2
+i = 4750, frame = 101236, next_frame = 101237
+i = 4775, frame = 101261, next_frame = 101262
+i = 4800, frame = 101286, next_frame = 101287
+i = 4825, frame = 101311, next_frame = 101312
+Current date and time: 2024-12-07 17:12:49.886322
+(base) PS C:\Steve\OpenAvenues\Project>
